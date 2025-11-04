@@ -113,3 +113,8 @@ span.concluida {
   border-bottom: 1px solid #dc143c;
   background-color: #ffe5e5;
 }
+
+#campoEntrada:hover{
+    border: 1px solid #59b959;
+    border-radius: 6px;
+}
