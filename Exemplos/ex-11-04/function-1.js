@@ -1,9 +1,7 @@
 function range(start, end, step=1){
-    if (end === undefined ) { // (!end)
-        end = start;
-        start = 1;
-        // [start, end] = [1, start]
-    }
+    if (!end ) {
+        [start, end] = [1, start];
+    };
     const crescente = start <= end;
     step = Math.abs(step);
 
@@ -13,10 +11,9 @@ function range(start, end, step=1){
         valor += crescente ? step : -step
     ) {
         console.log(valor);
-    }
+    };
     
 
 };
 
-
-range(14, -9, 2)
+range(14, -9, 2);
