@@ -1,0 +1,43 @@
+body{
+    margin-left: 25px;
+}
+label{
+    font-size: larger;
+}
+#id-prod{
+    margin-left: 10px;
+    width: 150px;
+    height: 35px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 2px, solid, #2d693a;
+}
+#id-preco{
+    width: 150px;
+    height: 35px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 2px, solid, #2d693a;
+}
+#id-prod:hover {
+      border-color: #14a550;
+      box-shadow: 0, 0, 5px, #00c853;
+    }
+#id-preco:hover {
+      border-color: #14a550;
+      box-shadow: 0, 0, 5px, #00c853;
+    }
+
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    border: 3px, solid, #4b9469 ;
+    background-color: #4b9469;
+    margin-bottom: 10px;
+    color: white;
+}
+button:hover{
+    border-color: #467c4e;
+    box-shadow: 0, 0, 5px, #00c853;
+}

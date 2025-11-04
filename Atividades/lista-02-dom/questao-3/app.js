@@ -10,14 +10,14 @@ formPromo.onsubmit = function(evento){
     const valorPromo = valor / 2;        
     const valorTotal = (valor * 2) + valorPromo;
 
-    const formatar = (v) => "R$ " + v.toFixed(2).replace(".", ",");
+    const formatar = v => "R$ " + v.toFixed(2).replace(".", ",");
 
     const h2 = document.createElement("h2");
     const p = document.createElement("p");
 
     h2.textContent = `Promoção: Leve 3 ${desc}!`;
     p.innerHTML = `
-        2 unidades por ${formatar(valor)} cada + 1 por ${formatar(valorPromo)}<br>
+        2 unidades por ${formatar(valor*2)} cada + 1 por ${formatar(valorPromo)}<br>
         <strong>Total: ${formatar(valorTotal)}</strong>
     `;
 
