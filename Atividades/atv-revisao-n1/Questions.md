@@ -57,7 +57,14 @@ b) Transforme o exemplo abaixo em IIFE e explique por que privateVariable não �
 
 console.log(privateVariable)
 ```
+### 5) Sobre avaliação de curto-circuito e renderização condicional:
+Implemente uma função getUserNameOrLoginCTA(user) que retorna user.name se existir; caso contrário, retorna "<a href='/login'>Entrar</a>", utilizando ||. Mostre um exemplo com valor falsy. Por fim, explique o comportamento e a diferença entre && e || com short-circuiting.
 
+```
+function getUserNameOrLoginCTA(user) {
+    return (user && user.name) || "<a href='/login'>Entrar</a>";
+}
+```
 
 ### 6) var, let, const e referência constante (discursiva curta)
 Explique por que const não “congela” um array/objeto e mostre um exemplo seguro de atualização imutável de um array ou objeto.
