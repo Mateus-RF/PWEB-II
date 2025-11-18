@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lista de Filmes Favoritos</title>
+        <style>
+            ul { list-style: none; padding: 0; }
+            li { padding: 6px; margin: 4px 0; background: #f2f2f2; display: flex; justify-content: space-between; }
+            button { margin-left: 10px; }
+            .hidden { display: none; }
+        </style>
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+
+    <h2>Filmes Favoritos</h2>
+
+    <input type="text" id="inputFilme" placeholder="Nome do filme...">
+    <button id="btnAdd">Adicionar</button>
+
+    <br><br>
+
+    <input type="text" id="inputFiltro" placeholder="Filtrar filmes...">
+
+    <ul id="listaFilmes"></ul>
+    
+    </body>
+</html>
