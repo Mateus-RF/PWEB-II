@@ -1,9 +1,10 @@
 # 📘 Projeto Blog em React
 
 ## 📌 Sobre o projeto
-Aplicação web desenvolvida com **React**, com navegação entre páginas utilizando componentes e controle de estado, sem uso de React Router. O projeto apresenta um blog com seção de clipping e páginas de descrição.
-🔗 **Projeto Secundario em Vue.js:**  
-[Segue o link do Projeto👈](https://github.com/Mateus-RF/PWEB-II/tree/d112a1aac8b3ac21069e4239e299a6fb224bd03c/Praticas-Framework/vue-app-02)
+Aplicação web desenvolvida com **Vue**, com navegação entre páginas utilizando componentes e controle de estado, sem uso de React Router. O projeto apresenta um blog com seção de clipping e páginas de descrição.
+
+🔗 **Projeto original desenvolvido em React.js:**  
+[Segue o link do Projeto👈](https://github.com/Mateus-RF/PWEB-II/tree/d112a1aac8b3ac21069e4239e299a6fb224bd03c/Praticas-Framework/react-app-02)
 
 
 ---
@@ -43,7 +44,6 @@ Aplicação web desenvolvida com **React**, com navegação entre páginas utili
 
 - O Vue apresenta uma curva de aprendizado inicial mais suave para quem vem de HTML/CSS puro.
 ---
-
 ## ▶️ Como rodar a aplicação localmente
 
 ### 1️⃣ Clonar o repositório
@@ -52,7 +52,7 @@ git clone <url-do-repositorio>
 ```
 ### 2️⃣ Acessar a pasta do projeto
 ```
-cd react-app-02
+cd vue-app-02
 ```
 ### 3️⃣ Instalar as dependências
 ```
