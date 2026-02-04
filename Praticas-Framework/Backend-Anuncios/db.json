@@ -1,0 +1,140 @@
+{
+  "$schema": "./node_modules/json-server/schema.json",
+  "anuncios": [
+    {
+      "id": 1,
+      "brand": "Hyundai",
+      "model": "HB20",
+      "km": "65.000",
+      "category": "Hatch",
+      "year": "2018",
+      "price": "55.000,00"
+    },
+    {
+      "id": 2,
+      "brand": "Toyota",
+      "model": "Hilux",
+      "km": "100.000",
+      "category": "Picape",
+      "year": "2019",
+      "price": "155.000,00"
+    },
+    {
+      "id": 3,
+      "brand": "Volkswagen",
+      "model": "T-Cross",
+      "km": "20.000",
+      "category": "SUV",
+      "year": "2021",
+      "price": "135.000,00"
+    },
+    {
+      "id": 4,
+      "brand": "Mitsubishi",
+      "model": "L200 Triton",
+      "km": "35.000",
+      "category": "Picape",
+      "year": "2022",
+      "price": "181.000,00"
+    },
+    {
+      "id": 5,
+      "brand": "Chevrolet",
+      "model": "Silverado",
+      "km": "90.000",
+      "category": "Picape",
+      "year": "2007",
+      "price": "65.000,00"
+    },
+    {
+      "id": 6,
+      "brand": "Fiat",
+      "model": "Argo",
+      "km": "40.000",
+      "category": "Hatch",
+      "year": "2020",
+      "price": "58.000,00"
+    },
+    {
+      "id": 7,
+      "brand": "Honda",
+      "model": "Civic",
+      "km": "75.000",
+      "category": "Sedan",
+      "year": "2017",
+      "price": "88.000,00"
+    },
+    {
+      "id": 8,
+      "brand": "Jeep",
+      "model": "Renegade",
+      "km": "55.000",
+      "category": "SUV",
+      "year": "2019",
+      "price": "82.000,00"
+    },
+    {
+      "id": 9,
+      "brand": "Ford",
+      "model": "Ranger",
+      "km": "110.000",
+      "category": "Picape",
+      "year": "2018",
+      "price": "128.000,00"
+    },
+    {
+      "id": 10,
+      "brand": "Chevrolet",
+      "model": "Onix",
+      "km": "30.000",
+      "category": "Hatch",
+      "year": "2021",
+      "price": "62.000,00"
+    },
+    {
+      "id": 11,
+      "brand": "Volkswagen",
+      "model": "Golf",
+      "km": "85.000",
+      "category": "Hatch",
+      "year": "2016",
+      "price": "79.000,00"
+    },
+    {
+      "id": 12,
+      "brand": "Toyota",
+      "model": "Corolla",
+      "km": "60.000",
+      "category": "Sedan",
+      "year": "2020",
+      "price": "112.000,00"
+    },
+    {
+      "id": 13,
+      "brand": "Nissan",
+      "model": "Kicks",
+      "km": "45.000",
+      "category": "SUV",
+      "year": "2021",
+      "price": "92.000,00"
+    },
+    {
+      "id": 14,
+      "brand": "Renault",
+      "model": "Duster",
+      "km": "70.000",
+      "category": "SUV",
+      "year": "2018",
+      "price": "68.000,00"
+    },
+    {
+      "id": 15,
+      "brand": "Peugeot",
+      "model": "208",
+      "km": "25.000",
+      "category": "Hatch",
+      "year": "2022",
+      "price": "74.000,00"
+    }
+  ]
+}
