@@ -1,0 +1,25 @@
+.descricao {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.descricao h1 {
+  font-size: 36px;
+  margin-bottom: 24px;
+}
+
+.descricao p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.assinatura {
+  margin-top: 32px;
+  font-size: 18px;
+  font-style: italic;
+  color: #555;
+}
