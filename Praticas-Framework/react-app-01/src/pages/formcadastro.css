@@ -1,0 +1,95 @@
+.formCadastro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+.formCadastro h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.formContainer1,
+.formContainer2 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+}
+
+.formCadastro > .formContainer1,
+.formCadastro > .formContainer2 {
+  flex: 1;
+}
+
+.formCadastro {
+  position: relative;
+}
+
+.formCadastro > .formContainer1,
+.formCadastro > .formContainer2 {
+  max-width: 400px;
+}
+
+.formCadastro label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.formCadastro input {
+  width: 300px;
+  height: 42px;
+  padding-left: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.formCadastro input::placeholder {
+  font-style: italic;
+  color: #888;
+}
+
+#buttonForm {
+  width: 300px;
+  height: 52px;
+  border-radius: 4px;
+  border: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: #2563eb;
+  color: white;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease;
+}
+
+#buttonForm:hover {
+  transform: scale(1.02);
+  background-color: #1e40af;
+}

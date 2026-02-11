@@ -19,3 +19,18 @@ h1 {
   color: dimgray;
   text-align: center;
 }
+.btn-primary {
+  margin-top: 20px;
+  padding: 10px 16px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.btn-primary:hover {
+  background: #1e40af;
+  transform: scale(1.02);
+}
