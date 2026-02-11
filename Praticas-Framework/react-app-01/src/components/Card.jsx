@@ -1,8 +1,8 @@
 import "./Card.css";
 
-const Card = ({ car }) => {
+const Card = ({ car, onClick }) => {
   return (
-    <div className='card'>
+    <div className='card' onClick={onClick}>
       <h2>{car.model}</h2>
       <ul>
         <li>
